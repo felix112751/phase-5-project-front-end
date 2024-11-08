@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 12vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.6s ease;
+}
+
+header.transparent {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+header.scrolled {
+    background-color: #e0e0e0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 7vh; 
+    padding: 0px 80px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: +55px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+nav ul li .join{
+    padding-right: 40px;
+}
+
+nav ul li a i{
+    margin-left: -18px;
+    font-size: 16.5px;
+}
+
+nav ul li .lens{
+    padding-left: 50px;
+}
+
+header.scrolled nav ul li a {
+    color: grey; 
+    font-size: 12px; 
+}
+
+header.scrolled nav ul li a i{
+    margin-left: -18px;
+    font-size: 16.5px;
+}
+
+header.scrolled nav ul li .lens{
+    padding-left: 39px;
+}
+
+header.scrolled nav ul {
+    position: relative;
+    left: +45px;
+}
+
+.logo-image {
+    width: 60px;
+    position: relative;
+    left: -63px;
+    top: 10px;
+    transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+header.scrolled .logo-image {
+    width: 104px;
+    position: relative;
+    top: 3px;
+   left: -52px;
+}
+
+
+
+
+

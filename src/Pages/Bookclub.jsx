@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 function Bookclub() {
   return (
-    <div>Bookclub</div>
+    <section>
+      <Navbar />
+    </section>
   )
 }
 

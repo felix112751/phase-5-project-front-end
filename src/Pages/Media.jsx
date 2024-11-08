@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 function Media() {
   return (
-    <div>Media</div>
+    <section>
+      <Navbar/>
+    </section>
   )
 }
 

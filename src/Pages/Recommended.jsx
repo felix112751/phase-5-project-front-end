@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 function Recommended() {
   return (
-    <div>Recommended</div>
+    <section>
+      <Navbar/>
+    </section>
   )
 }
 

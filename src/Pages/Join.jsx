@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 function Join() {
   return (
-    <div>Join</div>
+      <section>
+        <Navbar/>
+      </section>
   )
 }
 
